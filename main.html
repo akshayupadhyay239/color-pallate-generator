@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ucolors</title>
+<style>
+    body{
+        background-image: url(abstractbg.svg);
+        background-repeat: no-repeat;
+      
+    }
+
+    * {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+  .navbar {
+    filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.22));
+		position: relative;
+		overflow: visible;
+		width: 100%;
+		height: 3%;
+		left: 0px;
+		top: 0px;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+    z-index: 2;
+  }
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 7px 16px;
+  margin-top:12px;
+  margin-bottom:8px;
+  text-decoration: none;
+  text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(17,17,17,1);
+}
+
+li a:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.logo{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+}
+
+p{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 4%;
+		overflow: visible;
+		width: 1443px;
+		height: 137px;
+		text-align: center;
+		font-family: Snap ITC;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(17,17,17,1);
+}
+
+.btn{display: block;
+    position: relative;
+    margin-left: 38%;
+    margin-top: 7%;
+    margin-bottom: 20%;
+    
+    overflow: visible;
+    text-decoration: none;
+  text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+    width: 300px;
+    height: 80px;
+    background-color:rgb(0, 68, 255) ;
+    filter: drop-shadow(0px 6px 30px rgb(0, 68, 255));
+    border-radius: 25px;
+}
+
+.btntext{
+  display: block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    width: 300px;
+    height: 80px;
+    text-decoration: none;
+    font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgb(255, 255, 255);
+}
+
+.btn:hover{
+ background-color: rgb(3, 42, 151);
+
+}
+.footer{position: relative;
+  bottom: 0px;
+  position: -webkit-sticky;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  filter: drop-shadow(0px 5px 20px rgba(28, 88, 255, 0.192));
+}
+</style>
+
+</head>
+
+<body>
+           <div class = "navbar">
+                 <ul>
+                     <li><img class="logo" width="121.42" height="67" src="logo.svg" alt=""></li>
+                     <li><img height="60" style="margin: 8px;" src="line.svg" alt=""></li>
+                     <li class="navbtn"><a href="main.html">Home</a></li>
+                     <li><img height="60" style="margin: 8px;" src="line.svg" alt=""></li>
+                     <li class="navbtn"><a href="generator.html">generator</a></li>
+                     
+                 </ul>
+           </div>
+   <p>Create gorgeous color pallates</p>
+   <a href="generator.html"><div class="btn"><span class="btntext" >generator</span></div></a>
+    <div class="footer"></div>
+</body>
+</html>

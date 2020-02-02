@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="94" viewBox="0 0 170 94">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: #111;
+      }
+
+      .cls-1 {
+        font-size: 68px;
+        font-family: FrenchScriptMT, French Script MT;
+      }
+
+      .cls-2 {
+        fill: #58d386;
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        fill: #ff713d;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke: #111;
+      }
+
+      .cls-4 {
+        fill: #ffac3b;
+      }
+
+      .cls-5 {
+        fill: #2fb6f8;
+      }
+
+      .cls-6 {
+        font-size: 70px;
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="logo" transform="translate(-57 2)">
+    <text id="colors" class="cls-1" transform="translate(98 12)"><tspan x="11.325" y="57">colors</tspan></text>
+    <g id="Group_1" data-name="Group 1" transform="translate(-470 -402)">
+      <path id="Path_4" data-name="Path 4" class="cls-2" d="M690.669,458.469l2.728,14.659,15.307,5.224,11.542-7.07,1.281-20.071-30.858-11.223Z" transform="translate(-151.081 -3.258)"/>
+      <path id="Path_1" data-name="Path 1" class="cls-3" d="M692.1,425.091s7.81-12.7,17.467-1.674,13.981,5.964,13.981,5.964v9.895s-6.532,5.79-15.245-5.711-16.762,1.586-16.762,1.586Z" transform="translate(-151.558 8)"/>
+      <path id="Path_2" data-name="Path 2" class="cls-4" d="M692.142,424.966s7.924-12.447,17.72-1.64,14.184,5.843,14.184,5.843v9.194s-7.312,13.221-17.949-.457-13.955-1.645-13.955-1.645Z" transform="translate(-152.159 16.519)"/>
+      <path id="Path_3" data-name="Path 3" class="cls-5" d="M691.541,443.232s4.3-4.235,11.493,2.827,16.172,1.493,16.172,1.493l-1.546,15.271s-5.033,5.357-12.516-3.448-13.6-2.85-13.6-2.85Z" transform="translate(-150.814 4.287)"/>
+      <text id="U_" data-name="U " class="cls-6" transform="translate(529 400)"><tspan x="-1.31" y="76">U </tspan></text>
+    </g>
+  </g>
+</svg>
